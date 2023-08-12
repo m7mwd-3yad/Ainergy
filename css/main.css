@@ -6,9 +6,11 @@
 .layout {
     overflow: auto;
 }
-.bar{
+
+.bar {
     display: none;
 }
+
 .layout .nav {
     display: flex;
     justify-content: space-between;
@@ -491,21 +493,25 @@ span {
 
 /* ---------------------  enf the footer ------------------------- */
 
-@media (max-width:600px){
+@media (max-width:600px) {
     .layout .nav ul {
         display: none;
     }
+
     .bar {
         display: contents;
     }
-    .bar i{
+
+    .bar i {
         margin-top: 18px;
         margin-right: 50px;
         font-size: 20px;
     }
+
     .nav h1 {
         margin: 0 0 0 0;
     }
+
     /* end nav bar */
     .site .cd1>h1 {
         margin: 0 0 10px 0;
@@ -515,9 +521,11 @@ span {
     .site .cd1>p {
         font-size: 16px;
     }
-    .site .layout .cd0 .cd1 img{
+
+    .site .layout .cd0 .cd1 img {
         width: 90%;
     }
+
     .site .cd0 {
         width: 100%;
         height: calc(82vh - 60px);
@@ -526,9 +534,11 @@ span {
         margin-top: 40px;
 
     }
+
     .site .nextpage {
         padding-top: 0;
     }
+
     .site .nextpage>h1 {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 45px;
@@ -537,57 +547,89 @@ span {
         margin-bottom: 20px;
         text-align: center;
     }
+
     .site .nextpage .about {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         margin-top: 100px;
     }
+
     .site .nextpage .about .cd6 {
         width: 90%;
         margin-bottom: 50px;
         margin-left: 0px;
     }
+
     .site .nextpage .about .cd7 {
         width: 90%;
         margin-right: 0px;
     }
+
     .site .nextpage .about {
         margin-bottom: 0px;
     }
+
     .site .services {
 
         margin-bottom: 0px;
     }
+
     .site .contact {
         padding-top: 0px;
         justify-content: center;
         padding-bottom: 100px;
         flex-wrap: wrap;
     }
+
     .site .contact .cd19 {
-       width: 90%;
+        width: 90%;
     }
 
     .site .contact .cd20 {
 
         margin-right: 0px;
- 
+
     }
+
     .site .contact .cd23 .cd24 {
         margin-left: 0px;
         text-align: left;
     }
+
     .site .contact .cd23 .cd24 form input {
         display: block;
         margin: 20px 0 20px 0;
         padding: 10px 20px 10px 10px;
         width: 90%;
     }
+
     .site .contact .cd23 .cd24 form textarea {
         width: auto;
     }
+
     .site .contact button {
         margin-left: 35px;
+    }
+
+    .site .contact .cd20 {
+        margin-right: 0px;
+        width: 85%;
+        margin: auto;
+    }
+    .site .contact .cd21 i {
+        font-size: 32px;
+        color: #ed893d;
+        float: left;
+        line-height: 1;
+    }
+    .site .contact .cd20 .cd21 .cd01>p {
+        padding: 0 0 30px 30px;
+        margin-bottom: 20px;
+        line-height: 20px;
+        font-size: 15px;
+        color: #505050;
+        font-weight: 400;
+        width: fit-content;
     }
 }
