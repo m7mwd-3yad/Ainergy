@@ -1,0 +1,593 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.layout {
+    overflow: auto;
+}
+.bar{
+    display: none;
+}
+.layout .nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+    width: 100%;
+    position: fixed;
+    background: #fff;
+    z-index: 1000px;
+}
+
+.layout .nav ul {
+    display: flex;
+    justify-content: center;
+    margin-right: 130px;
+}
+
+.layout .nav a {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 0 10px 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #222;
+    transition: 0.3s;
+}
+
+.layout .nav a:hover {
+    color: #ed893d;
+}
+
+
+.nav h1 {
+    color: #555;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 28px;
+    margin: 0 0 0 90px;
+}
+
+span {
+    color: #ed893d;
+    font-size: 20px;
+}
+
+.layout .nav ul a li .nav1 {
+
+    font-size: 16px;
+    color: rgb(197, 42, 42);
+    font-weight: bold;
+}
+
+.clear {
+
+    width: 100%;
+    height: 90px;
+    overflow: auto;
+}
+
+/*  end nav bar */
+.site .cd0 {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background: url(../img/hero-bg.png) center bottom no-repeat;
+    background-size: 100%;
+    margin-top: 40px;
+    background-attachment: fixed;
+}
+
+.site .cd1 {
+    text-align: center;
+    margin-top: 135px;
+
+}
+
+.site .cd1>h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    font-family: "Philosopher", sans-serif;
+    color: #ed893d;
+}
+
+.site .cd1>p {
+    color: #777;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.site .cd2 {
+
+    text-align: center;
+
+}
+
+.site .cd2 button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 11px 36px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 2px solid #ed893d;
+    background: #fff;
+    color: #ed893d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.site .cd2 button:hover {
+    background-color: #ed893d;
+    color: white;
+}
+
+.site .cd3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.site .cd3 .cd4 {
+    display: flex;
+    justify-content: center;
+    margin-right: 60px;
+    transition: .5s;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.site .cd3 .cd4:hover {
+    color: #ed893d;
+}
+
+.site .cd3 .cd4>i {
+    margin-right: 10px;
+    font-size: 19px;
+}
+
+.site .cd3 .cd5 {
+    display: flex;
+    justify-content: center;
+    transition: .5s;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.site .cd3 .cd5:hover {
+    color: #ed893d;
+}
+
+.site .cd3 .cd5>i {
+    margin-right: 10px;
+    font-size: 19px;
+}
+
+/* ------------------------------- */
+.site .nextpage {
+    padding-top: 50px;
+}
+
+.site .nextpage>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.site .nextpage .about {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 350px;
+}
+
+.site .nextpage .about .cd6 {
+    text-align: center;
+    padding: 60px;
+    transition: .5s;
+    margin-left: 30px;
+}
+
+.site .nextpage .about .cd6:hover {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+}
+
+.site .nextpage .about .cd6>h4 {
+    color: #000;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+.site .nextpage .about .cd6>p {
+    color: #505050;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.site .nextpage .about .cd7 {
+    text-align: center;
+    padding: 60px;
+    transition: .5s;
+    margin-right: 30px;
+}
+
+.site .nextpage .about .cd7:hover {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+}
+
+.site .nextpage .about .cd7>h4 {
+    color: #000;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+.site .nextpage .about .cd7>p {
+    color: #505050;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.site .services {
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 150px;
+}
+
+.site .services>h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.site .services>p {
+    color: #626262;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.site .services .parent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.site .services .parent .item {
+    margin: 10px;
+    padding: 50px 130px 60px 130px;
+}
+
+.site .services .parent .item>h5 {
+    margin-top: 20px;
+}
+
+.site .services .parent .item:hover {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+}
+
+.site .services .cd8 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.site .services .cd8 .item2 {
+    margin: 10px;
+    padding: 50px 235px 60px 235px;
+}
+
+.site .services .cd8 .item2>h5 {
+    margin-top: 20px;
+}
+
+.site .services .cd8 .item2:hover {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+}
+
+/* ----------------- end servicss page -------------------- */
+.site .timeline {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.site .timeline>h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.site .timeline>p {
+    color: #626262;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.site .timeline .parent1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.site .timeline .parent1 .child1 {
+    margin: 10px;
+    padding: 30px 100px;
+}
+
+.site .timeline .parent1 .child2 {
+    margin: 10px;
+    padding: 30px 140px;
+}
+
+.site .timeline .parent1 .child3 {
+    margin: 10px;
+    padding: 30px 118px;
+}
+
+.site .timeline .parent1 .child>h5 {
+    margin: 10px;
+}
+
+.site .timeline .parent2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.site .timeline .parent2 .child4 {
+    margin: 10px;
+    padding: 30px 150px;
+}
+
+.site .timeline .parent2 .child5 {
+    margin: 10px;
+    padding: 30px 125px;
+}
+
+.site .timeline .parent2 .child6 {
+    margin: 10px;
+    padding: 30px 90px;
+}
+
+.site .timeline #child:hover {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+}
+
+/* ------------------ end timeline page ------------------*/
+.site .contact {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 150px;
+    justify-content: center;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.site .contact>h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.site .contact .cd19 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.site .contact .cd20 {
+    text-align: left;
+    margin-right: 310px;
+    margin-top: 30px;
+}
+
+.site .contact .cd20 .cd21 .cd01>p {
+    padding: 0 0 30px 30px;
+    margin-bottom: 20px;
+    line-height: 10px;
+    font-size: 15px;
+    color: #505050;
+    font-weight: 400;
+    width: fit-content;
+
+}
+
+.site .contact .cd21 .cd01 {
+    display: flex;
+    text-align: left;
+}
+
+.site .contact .cd21 i {
+    font-size: 32px;
+    color: #ed893d;
+    float: left;
+    line-height: 0;
+}
+
+.site .contact .cd23 .cd24 {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.site .contact .cd23 .cd24 form input {
+    display: block;
+    margin: 20px 0 20px 0;
+    padding: 10px 130px 10px 10px;
+    width: 100%;
+
+}
+
+.site .contact .cd23 .cd24 form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px 130px 0 10px;
+    max-width: 447px;
+}
+
+.site .contact button {
+    background: #ed893d;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    margin-top: 10px;
+    margin-left: 140px;
+
+}
+
+.site .contact button:hover {
+    background: #92d283;
+}
+
+/* --------------------- end the conact ---------------------*/
+.site .footer {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+    border-top: #000 10px solid;
+}
+
+.site .footer p {
+    color: #505050;
+}
+
+.site .footer span {
+    color: #ed893d;
+    font-size: 16px;
+}
+
+/* ---------------------  enf the footer ------------------------- */
+
+@media (max-width:600px){
+    .layout .nav ul {
+        display: none;
+    }
+    .bar {
+        display: contents;
+    }
+    .bar i{
+        margin-top: 18px;
+        margin-right: 50px;
+        font-size: 20px;
+    }
+    .nav h1 {
+        margin: 0 0 0 0;
+    }
+    /* end nav bar */
+    .site .cd1>h1 {
+        margin: 0 0 10px 0;
+        font-size: 28px;
+    }
+
+    .site .cd1>p {
+        font-size: 16px;
+    }
+    .site .layout .cd0 .cd1 img{
+        width: 90%;
+    }
+    .site .cd0 {
+        width: 100%;
+        height: calc(82vh - 60px);
+        background: url(../img/hero-bg.png) center bottom no-repeat;
+        background-size: 100%;
+        margin-top: 40px;
+
+    }
+    .site .nextpage {
+        padding-top: 0;
+    }
+    .site .nextpage>h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 45px;
+        font-weight: normal;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .site .nextpage .about {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+    .site .nextpage .about .cd6 {
+        width: 90%;
+        margin-bottom: 50px;
+        margin-left: 0px;
+    }
+    .site .nextpage .about .cd7 {
+        width: 90%;
+        margin-right: 0px;
+    }
+    .site .nextpage .about {
+        margin-bottom: 0px;
+    }
+    .site .services {
+
+        margin-bottom: 0px;
+    }
+    .site .contact {
+        padding-top: 0px;
+        justify-content: center;
+        padding-bottom: 100px;
+        flex-wrap: wrap;
+    }
+    .site .contact .cd19 {
+       width: 90%;
+    }
+
+    .site .contact .cd20 {
+
+        margin-right: 0px;
+ 
+    }
+    .site .contact .cd23 .cd24 {
+        margin-left: 0px;
+        text-align: left;
+    }
+    .site .contact .cd23 .cd24 form input {
+        display: block;
+        margin: 20px 0 20px 0;
+        padding: 10px 20px 10px 10px;
+        width: 90%;
+    }
+    .site .contact .cd23 .cd24 form textarea {
+        width: auto;
+    }
+    .site .contact button {
+        margin-left: 35px;
+    }
+}
