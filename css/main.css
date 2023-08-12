@@ -496,8 +496,7 @@ span {
 @media (max-width:600px) {
 
     .layout .nav {
-
-        width: 70%;
+        width: 100%;
     }
 
     .layout .nav ul {
