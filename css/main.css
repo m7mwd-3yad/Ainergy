@@ -494,6 +494,12 @@ span {
 /* ---------------------  enf the footer ------------------------- */
 
 @media (max-width:600px) {
+
+    .layout .nav {
+
+        width: 90%;
+    }
+
     .layout .nav ul {
         display: none;
     }
@@ -504,7 +510,7 @@ span {
 
     .bar i {
         margin-top: 18px;
-        margin-right: 50px;
+
         font-size: 20px;
     }
 
@@ -617,12 +623,14 @@ span {
         width: 85%;
         margin: auto;
     }
+
     .site .contact .cd21 i {
         font-size: 32px;
         color: #ed893d;
         float: left;
         line-height: 1;
     }
+
     .site .contact .cd20 .cd21 .cd01>p {
         padding: 0 0 30px 30px;
         margin-bottom: 20px;
